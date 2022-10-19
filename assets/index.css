@@ -1,0 +1,193 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+    margin-bottom: 200px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: unset;
+}
+.books-img  li {
+    display:contents;
+    margin: 0;
+    list-style: none;
+}
+.getpage {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.title {
+    color: #ff5e00;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.label {
+    color: grey;
+    font-size: 1.4rem;
+}
+.desc {
+    color: white;
+}
+.read-more {
+    color: white;
+}
+.toolrr.price {
+    float: right;
+    color: white;
+    font-weight: 600;
+}
+.fa-heart {
+    position: relative;
+    left: 66%;
+    color: white;
+}
+.add.btnsolid.bg_b.toolrr {
+    float: right;
+    border: 1px solid #1962b0;
+    background: #1962b0;
+    color: #fff;
+    font-size: 13px;
+    padding: 3px 8px 1px;
+    text-transform: uppercase;
+}
+.package-row {
+    background: #3e3a3a;
+    padding: 10px 10px;
+}
+.formattitle.sml {
+    color: white;
+    font-weight: 700;
+}
+span.frmtinfo {
+    color: #9b9292;
+}
+.release {
+    color: #ff6a00;
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+.fa-heart:hover {
+    position: relative;
+    left: 66%;
+    color: red;
+}
+a {
+    text-decoration: none !important;
+}
+.song-list {
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+.view-full {
+    color: #ff8100;
+}
+.view-list {
+    border: none !important;
+}
+.arrow-text {
+    color: #ff8100;
+}
+.col-bg-color {
+    background: #000000a3;
+}
+.nav-link {
+    display: block;
+    padding: 0;
+    box-shadow: 1px 0px 6px 1px black;
+}
+
+
+.img-1 {
+    position: relative;
+    height: 116px;
+    width: auto;
+}
+
+.img-2 {
+    position: absolute;
+    right: 80%;
+    height: 18.5%;
+    width: 10%;
+}
+.img-3 {
+    position: absolute;
+    left: 12%;
+    height: 18.5%;
+    width: 10%;
+}
+.img-4 {
+    position: absolute;
+    left: 15%;
+    height: 18.5%;
+    width: 10%;
+}
+.img-5 {
+    position: absolute;
+    left: 18%;
+    height: 18.5%;
+    width: 10%;
+}
+.img-6 {
+    position: absolute;
+    left: 22%;
+    height: 18.5%;
+    width: 10%;
+}
+
+
+
+.img:hover {
+    z-index: 1;
+    transform: translate(-10px, 0px);
+    transition: all .2s ease-in-out;
+}
+.image-title {
+    color: white;
+}
+.fahren {
+    color: #ff8d00;
+}
+
+.image-overlay {
+    position: relative;
+}
+/* .image-title {
+    color: white;
+    position: absolute;
+    top: -132px;
+    left: 0px;
+    height: 115px;
+    background: #00000061;
+    opacity: 0;
+}
+.image-title:hover {
+    color: white;
+    position: relative;
+    top: -132px;
+    left: 0px;
+    height: 115px;
+    background: #00000061;
+    opacity: 1;
+} */
+
+
+@media screen and (max-width: 600px) {
+    .fa-heart {
+        position: relative;
+        left: 52%;
+        color: white;
+    }
+    .img-1 {
+        position: relative;
+        left: 20px;
+        height: 100px;
+        width: 50%;
+    }
+    .img:hover {
+        z-index: 1000;
+        transform: translate(10px, 0px);
+        transition: all .2s ease-in-out;
+    }
+  }
