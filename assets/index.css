@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
 body {
     background-color: rgba(0, 0, 0, 0.89);
     margin-bottom: 200px;
@@ -7,7 +10,7 @@ body {
     color: #fff;
     background-color: unset;
 }
-.books-img  li {
+.slide-img .books-img  li {
     display:contents;
     margin: 0;
     list-style: none;
