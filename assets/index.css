@@ -5,7 +5,9 @@ body {
     background-color: rgba(0, 0, 0, 0.89);
     margin-bottom: 200px;
 }
-
+a {
+    text-decoration: none !important;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: unset;
@@ -15,32 +17,32 @@ body {
     margin: 0;
     list-style: none;
 }
-.getpage {
+.getpage-col .getpage {
     color: white;
     font-size: 2rem;
     font-weight: 700;
 }
-.title {
+.getpage-col .title {
     color: #ff5e00;
     font-size: 2rem;
     font-weight: 400;
 }
-.label {
+.getpage-col .label {
     color: grey;
     font-size: 1.4rem;
 }
-.desc {
+.getpage-col .desc {
     color: white;
 }
-.read-more {
+.desc .read-more {
     color: white;
 }
-.toolrr.price {
+.package .toolrr.price {
     float: right;
     color: white;
     font-weight: 600;
 }
-.fa-heart {
+.stock .fa-heart {
     position: relative;
     left: 66%;
     color: white;
@@ -54,85 +56,82 @@ body {
     padding: 3px 8px 1px;
     text-transform: uppercase;
 }
-.package-row {
+.getpage-col .package-row {
     background: #3e3a3a;
     padding: 10px 10px;
 }
-.formattitle.sml {
+.package-row .package .formattitle {
     color: white;
     font-weight: 700;
 }
-span.frmtinfo {
+.stock .frmtinfo {
     color: #9b9292;
 }
-.release {
+.new-release .release {
     color: #ff6a00;
     padding: 5px;
     border-bottom: 1px solid;
 }
-.fa-heart:hover {
+.stock .fa-heart:hover {
     position: relative;
     left: 66%;
     color: red;
 }
-a {
-    text-decoration: none !important;
-}
-.song-list {
+.song-name .songs .song-list {
     color: white;
     padding: 5px;
     border-bottom: 1px solid grey;
 }
-.view-full {
+.song-name .songs .view-full {
     color: #ff8100;
 }
-.view-list {
+.song-name .songs .view-list {
     border: none !important;
 }
-.arrow-text {
+.song-name .songs .arrow-text {
     color: #ff8100;
 }
-.col-bg-color {
+.row .col-bg-color {
     background: #000000a3;
 }
-.nav-link {
+.slide-img .nav-link {
     display: block;
     padding: 0;
     box-shadow: 1px 0px 6px 1px black;
 }
 
 
-.img-1 {
+.slide-img .nav-item .erich-img {
     position: relative;
     height: 116px;
     width: auto;
 }
 
-.img-2 {
+.slide-img .nav-item .erich-wallen-img {
     position: absolute;
     right: 80%;
     height: 18.5%;
     width: 10%;
 }
-.img-3 {
+.slide-img .nav-item .con-wake-img {
     position: absolute;
     left: 12%;
     height: 18.5%;
     width: 10%;
 }
-.img-4 {
+.slide-img .nav-item .neu-img {
     position: absolute;
     left: 15%;
     height: 18.5%;
     width: 10%;
 }
-.img-5 {
+.slide-img .nav-item .falcon-img {
     position: absolute;
     left: 18%;
     height: 18.5%;
     width: 10%;
 }
-.img-6 {
+.slide-img .nav-item .art-img {
     position: absolute;
     left: 22%;
     height: 18.5%;
@@ -141,12 +140,12 @@ a {
 
 
 
-.img:hover {
+.slide-img .nav-item .img:hover {
     z-index: 1;
     transform: translate(-10px, 0px);
     transition: all .2s ease-in-out;
 }
-.image-title {
+/* .image-title {
     color: white;
 }
 .fahren {
@@ -155,7 +154,7 @@ a {
 
 .image-overlay {
     position: relative;
-}
+} */
 /* .image-title {
     color: white;
     position: absolute;
@@ -177,18 +176,18 @@ a {
 
 
 @media screen and (max-width: 600px) {
-    .fa-heart {
+    .stock .fa-heart {
         position: relative;
         left: 52%;
         color: white;
     }
-    .img-1 {
+    .slide-img .nav-item .erich-img {
         position: relative;
         left: 20px;
         height: 100px;
         width: 50%;
     }
-    .img:hover {
+    .slide-img .nav-item .img:hover {
         z-index: 1000;
         transform: translate(10px, 0px);
         transition: all .2s ease-in-out;
